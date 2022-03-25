@@ -1,13 +1,13 @@
 public class CartItem {
-    private String productId;
+    private Product product;
     private Integer quantity;
 
-    public String getProductId() {
-        return productId;
+    public Product getProduct() {
+        return product;
     }
 
-    public void setProductId(String productId) {
-        this.productId = productId;
+    public void setProduct(Product product) {
+        this.product = product;
     }
 
     public Integer getQuantity() {
