@@ -1,14 +1,15 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
 
-    private List<CartItem> cartItems;
+    private List<Product> products = new ArrayList<>();
 
-    public List<CartItem> getCartItems() {
-        return cartItems;
+    public void add(Product product) {
+        this.products.add(product);
     }
 
-    public void setCartItems(List<CartItem> cartItems) {
-        this.cartItems = cartItems;
+    public List<Product> getProducts() {
+        return this.products;
     }
 }
